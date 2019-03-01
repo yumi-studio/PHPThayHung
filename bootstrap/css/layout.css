@@ -1,0 +1,90 @@
+body.login{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image:url('/phpthayhung/image/61198649_p0.png');
+    background-position-x: center
+}
+
+#login-form{
+    width:40%;
+    margin:auto;
+    padding: 20px;
+    position: relative;
+    top:150px;
+    border-radius: 10px;
+    background-color: rgb(63, 120, 194);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8)
+}
+
+#header{
+    height: 100px;
+}
+
+#navigator{
+    /* background-color: rgb(145, 255, 145); */
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 10
+}
+
+#main{
+    min-height: 1000px;
+    background-color: rgb(145, 28, 255);
+    padding: 20px 20px
+}
+/* 
+#profile-ava{
+    overflow: hidden;
+    height: ;
+    text-align: center;
+    border-radius: 50%
+}
+#profile-ava img{
+    height: 100%;
+    transform: translateX(-25%);
+} */
+
+#profile-info{
+    min-height: 200px;
+}
+
+#avatar{
+
+}
+
+#avatar #frame{
+    width: 307px;
+    height: 307px;
+    overflow: hidden;
+    border-radius: 50% 50%;
+}
+#frame>img{
+    width: 100%;
+}
+
+.proj-item{
+    min-height: 100px;
+    background: rgb(80, 80, 80);
+}
+
+#footer{
+    /* background-color: rgb(163, 76, 76); */
+    height: 60px;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(80, 80, 80)
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(20, 20, 20);
+}
